@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4AD8D8D8"
+    >
+
+    <ImageView
+        android:id="@+id/img_HinhList"
+        android:layout_width="60dp"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:id="@+id/textview_MaSo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img_HinhList"
+        android:paddingLeft="10dp"
+        android:text="Ma so :" />
+    <TextView
+        android:paddingLeft="10dp"
+        android:id="@+id/textview_HoTen"
+        android:layout_below="@id/textview_MaSo"
+        android:layout_toRightOf="@id/img_HinhList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ho Ten :"
+        />
+    <TextView
+        android:paddingLeft="10dp"
+        android:id="@+id/textview_GioiTinh"
+        android:layout_below="@id/textview_HoTen"
+        android:layout_toRightOf="@id/img_HinhList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gioi Tinh  :"
+        />
+    <TextView
+        android:id="@+id/textview_DonVi"
+        android:layout_below="@id/textview_GioiTinh"
+        android:layout_toRightOf="@id/img_HinhList"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don Vi  :"
+        />
+
+</RelativeLayout>

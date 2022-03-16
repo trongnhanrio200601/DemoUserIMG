@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">User_IMG</string>
+    <string-array name="donvi_list">
+        <item>Phong ke toan</item>
+        <item>Phong tiep thi</item>
+        <item>Phong quan he doanh nghiep</item>
+        <item>Phong ky thoat</item>
+        <item>Bo phan quan tri</item>
+        <item>Trung tam pham mem</item>
+    </string-array>
+</resources>
